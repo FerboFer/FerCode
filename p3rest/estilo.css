@@ -1,0 +1,45 @@
+
+body {
+	padding-top: 5rem;
+	background-color: #D6FFFE;
+	margin: 0;
+}
+
+/* Estilo de cada carta de país */
+.card {
+	cursor: pointer;
+	margin: 20px;
+	max-width: 100%;
+	width: 330px;
+	background-color: #FFFFF8;
+}
+
+.card img {
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+}
+
+
+/* organización de las cartas de àís*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1440px;
+	padding: 40px;
+	position: relative;
+}
+
+
+/* Ventana emergente*/
+.modal {
+	background-color: white;
+}
+
+.modal img {
+	max-width: 500px;
+}
+
+

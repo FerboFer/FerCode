@@ -1,5 +1,4 @@
 # Practica 6.
-
 ## Contexto de la práctica
 
 Un portal de Internet, gestiona unas cuentas de usuario y se pide
@@ -67,6 +66,5 @@ mvn clean spring-boot:run
 ```
 http://localhost:8080/index.html
 ```
-
 - User: rogers63
 - Password: password
